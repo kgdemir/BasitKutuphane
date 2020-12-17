@@ -21,7 +21,7 @@ CREATE TABLE Kitap(
 
 CREATE TABLE Turler(
 	Id int IDENTITY(1,1) NOT NULL,
-	Yazar nvarchar(50) NOT NULL,
+	Tur nvarchar(50) NOT NULL,
 	PRIMARY KEY(Id)
 );
 
