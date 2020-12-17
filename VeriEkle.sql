@@ -4,6 +4,22 @@ INSERT [dbo].[Yayinevi] ([Yayinevi], [Adres], [Ilgili], [Telefon]) VALUES (N'Aba
 
 INSERT [dbo].[Yazar] ([Yazar]) VALUES (N'Ömer Seyfettin'),(N'Stefan Zweig'),(N'Kemalettin Tuğcu'),(N'Agatha Christie'),(N'Stephen King')
 
+INSERT INTO Ogrenci VALUES('Fethullah Altınöz', 26121440628,2020146218);
+,('İlkay Ramazan Ankara', 45548255288,2020852458);
+,('Zeki Yiğithan Armutcu', 14856069740,2020667180);
+,('İlkim Ateşcan', 13273974602,2020376122);
+,('Pekin Boz', 25271551794,2020157224);
+,('Ahmet Yasin Burak', 24699366960,2020969260);
+,('Elif Ege Çağlayan', 33095197850,2020598300);
+,('Mehmet Erman Düzbayır', 25004875652,2020476202);
+,('Ahmet Sencer Emikoğlu', 24411689814,2020188244);
+,('Işınbıke Gülcan', 47002452644,2020256404);
+,('Hasan Fahri Gültepe', 46420267304,2020063444);
+,('Zeynep Doğa Gürses', 35837072960,2020779380);
+,('Feray Hakverdi', 14144986322,2020483112);
+,('Selime Hüner', 24134802262,2020402212);
+
+
 INSERT [dbo].[Kitap] ([Adi], [Yayinevi], [Yazar], [Basimyili], [Tur], [ISBN]) VALUES (N'Sulk (Vol 1): Bighead and Friends', 5, 1, 1980, 2, N'978-1-60040-312-6')
 ,(N'The League of Extraordinary Gentlemen (Vol III): Century - HARDCOVER', 3, 1, 1980, 2, N'978-1-60742-032-5')
 ,(N'Three Fingers by Rich Koslowski', 1, 1, 1980, 3, N'978-1-60446-751-4')
