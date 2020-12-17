@@ -1,4 +1,10 @@
-CREATE DATABASE Kutuphane;
+USE [master]
+GO
+
+CREATE DATABASE [Kutuphane]
+GO
+USE [Kutuphane]
+GO
 
 CREATE TABLE Ogrenci(
 	Id int IDENTITY(1,1) NOT NULL,
